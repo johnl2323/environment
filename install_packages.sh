@@ -4,6 +4,16 @@ PKGS="
 git
 fldigi
 tmux
+maven
+hamradio-antenna
+hamradio-files
+hamradio-maintguide
+hamradio-morse
+hamradio-satellite
+hamradio-sdr
+hamradio-tasks
+hamradio-tools
+hamradio-training
 "
 
 sudo apt-get update
