@@ -4,6 +4,7 @@ PKGS="
 git
 fldigi
 tmux
+wsjtx
 maven
 hamradio-antenna
 hamradio-files
