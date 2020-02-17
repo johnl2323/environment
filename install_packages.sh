@@ -1,6 +1,14 @@
 #!/bin/bash
 
 PKGS="
+silversearcher-ag
+htop
+docker.io
+python3-pip
+docker-compose
+atop
+gqrx
+nmap
 git
 fldigi
 tmux
@@ -25,3 +33,8 @@ do
     echo "================================"
     sudo apt-get install -y $pkg
 done
+
+# add user to docker group
+echo "Adding to docker group..."
+sudo usermod -aG docker johnl
+
