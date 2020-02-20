@@ -14,6 +14,7 @@ fldigi
 tmux
 wsjtx
 maven
+openjdk-8-jdk
 hamradio-antenna
 hamradio-files
 hamradio-maintguide
